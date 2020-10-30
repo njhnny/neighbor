@@ -17,6 +17,11 @@ Navigate to the project's github page in your browser and download the code usin
 
 ### View Online
 https://njhnny.github.io/neighbor/
+
+### Specs
+Describe: beepIt()
+Test It should return an array of numbers and strings from 0 to the user inputted number.
+Numbers containing the digit 1 should be replaced with "Beep!." Numbers containing the digit 2 should be replaced with "Boop!," and numbers containing the digit 3 should be replaced with "Beep!." For numbers containing a combination of these digits, the rules apply from lowest to highest priority based on the order listed above.
 ## Contact
 njhnny@gmail.com
 ### [Github](https://github.com/njhnny/neighbor)
