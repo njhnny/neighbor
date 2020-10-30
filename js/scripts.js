@@ -5,7 +5,12 @@ $(document).ready(function(event) {
     let userInput = $("input#submission").val();
     //create for loop of input
     for (let i = 0; i < userInput.length; i++) {
-      console.log(userInput[i]);
+    //determine if input contains 1
+      if (userInput[i] === "1") {
+        alert("Beep!");
+      } else {
+        alert("Boop!");
+      }
     }
   });
  }); 
