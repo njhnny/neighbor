@@ -8,18 +8,16 @@ $(document).ready(function(event) {
     //create for loop of input
     for (let i = 0; i <= userInput; i++) {
     //generate array of numbers up to and including user input
-      array.push(i);
-      console.log(array);
-    }
-    alert(array);
+    if (i.toString().includes('3')) {
+      array.push("Won't you be my neighbor?");
+    } else if (i.toString().includes('2')) {
+      array.push("Boop!");
+    } else if (i.toString().includes('1')) {
+      array.push("Beep!");
+    } else {
+    array.push(i);
+    };
+  }
+  alert(array);
   });
- }); 
-
-//  determine if input contains 1
-//  if (userInput[i] === "1") {
-//   alert("Beep!");
-// } else {
-//   alert("Boop!");
-// } if (userInput[i] === "1") {
-
-// }
+});
