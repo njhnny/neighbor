@@ -16,8 +16,9 @@ function beepIt(userInput) {
     array.push(j);
     };
   };
+  let response = array.join(", ");
 //return result
-  return(array);
+  return(response);
 };
 
 //user interface logic
