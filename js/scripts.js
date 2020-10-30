@@ -15,13 +15,10 @@ function beepIt(userInput) {
     } else {
     array.push(j);
     };
-  }
-
-//alert to test functionality
-  alert(array);
+  };
 //return result
   return(array);
-}
+};
 
 //user interface logic
 //accept input, pass to function, accept result and display to user
