@@ -3,7 +3,9 @@ $(document).ready(function(event) {
     event.preventDefault();
     //collect number entered by user then alert to test functionality
     let userInput = $("input#submission").val();
-    //test to see if variable contains integer
-    console.log(Number.isInteger(userInput));
+    //create for loop of input
+    for (let i = 0; i < userInput.length; i++) {
+      console.log(userInput[i]);
+    }
   });
  }); 
