@@ -8,14 +8,15 @@ $(document).ready(function(event) {
     //create for loop of input
     for (let i = 0; i <= userInput; i++) {
     //generate array of numbers up to and including user input
-    if (i.toString().includes('3')) {
+    let j = i.toString()
+      if (j.includes('3')) {
       array.push("Won't you be my neighbor?");
-    } else if (i.toString().includes('2')) {
+    } else if (j.includes('2')) {
       array.push("Boop!");
-    } else if (i.toString().includes('1')) {
+    } else if (j.includes('1')) {
       array.push("Beep!");
     } else {
-    array.push(i);
+    array.push(j);
     };
   }
   alert(array);
