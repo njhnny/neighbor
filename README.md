@@ -1,6 +1,7 @@
 # Won't You Be My Neighbor?
+11/2020
 ## By Nick Hennessy
-A friday project. Description to be added.
+A web form to create a string of numbers and words based on a user's numerical input. Different numbers will produce different results.
 ## Technologies used
 * html
 * CSS
