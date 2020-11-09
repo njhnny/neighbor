@@ -1,5 +1,5 @@
 # Won't You Be My Neighbor?
-11/2020
+Created: 10/23/2020 Last updated: 11/8/2020
 ## By Nick Hennessy
 A web form to create a string of numbers and words based on a user's numerical input. Different numbers will produce different results.
 ## Technologies used
