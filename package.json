@@ -4,12 +4,13 @@
   "description": "Created: 10/23/2020 Last updated: 2/27/2021 ## By Nick Hennessy A web form to create a string of numbers and words based on a user's numerical input. Different numbers will produce different results. ## Technologies used * html * CSS * Javascript * markdown * jQuery * Bootstrap CSS library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "4.39.3"
+    "webpack": "4.39.3",
+    "webpack-cli": "^4.5.0"
   }
 }
