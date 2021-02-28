@@ -17,17 +17,14 @@ function beepIt(userInput) {
     };
   };
   let response = array.join(", ");
-//return result
   return(response);
 };
 
 //user interface logic
-//accept input, pass to function, accept result and display to user
   $(document).ready(function() {
     $("form#form").submit(function(event) {
       event.preventDefault();
       let userInput = $("input#submission").val();
-      //let output = beepIt(userInput);
       $("p").text(beepIt(userInput));
     });
   });
