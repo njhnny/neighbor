@@ -27,7 +27,7 @@ function beepIt(userInput) {
     $("form#form").submit(function(event) {
       event.preventDefault();
       let userInput = $("input#submission").val();
-      let output = beepIt(userInput);
-      $("p").text(output);
+      //let output = beepIt(userInput);
+      $("p").text(beepIt(userInput));
     });
   });
