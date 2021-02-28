@@ -1,0 +1,9 @@
+.output {
+  border-width: 20px;
+  border-color: black;
+  font-family: monospace;
+}
+
+body {
+  background-color: cornsilk;
+}
